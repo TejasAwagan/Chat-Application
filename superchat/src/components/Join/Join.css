@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.JoinPage {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.JoinContainer {
+    /* border: 2px solid #fff; */
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.JoinContainer>img {
+    width: 10vmax;
+}
+
+.JoinContainer>h1 {
+    color: #fff;
+    font-size: 2.5vmax;
+    font-family: "Roboto", sans-serif;
+    border-bottom: 0.2vmax solid #fff;
+    text-align: center;
+    padding: 1vmax;
+}
+
+#joinInput {
+    width: 25vmax;
+    padding: 1.5vmax;
+    outline: none;
+    font-size: 1.2vmax;
+    border: none;
+    margin: 2vmax;
+}
+
+.JoinBtn {
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    background-color: crimson;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    transition:all 0.3s;
+    margin-top: 10px;
+
+}
