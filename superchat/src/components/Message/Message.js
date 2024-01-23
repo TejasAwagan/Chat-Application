@@ -1,12 +1,13 @@
 import React from "react";
-import "./Message.css";
+import "../Message/Message.css";
 
 const Message = ({ user, messages, classs }) => {
   if (user) {
     return (
       <div className={`messageBox ${classs}`}>{`${user} : ${messages}`}</div>
-    );
-  } else {
+    )
+  } 
+  else {
     return <div className={`messageBox ${classs}`}>{`You : ${messages}`}</div>;
   }
 };
